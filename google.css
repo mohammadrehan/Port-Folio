@@ -1,0 +1,91 @@
+	#header ul{	
+		display: inline;
+		list-style-type: none;
+	
+	}
+
+	 ul li a{
+		color: #666666;
+	}
+
+	#header ul li{
+		margin: 0 5px 0 5px;
+		text-decoration: none;
+		float: right;
+		}
+	footer nav ul{
+		display: inline;
+	}
+	a{
+		text-decoration: none;
+	}
+	#container{
+		width: 600px;
+		text-align: center;
+		margin-left: 330px;
+		margin-top: 150px;	
+	}
+	input[type="text"]{
+		display: block;
+		width: 100%;	
+		font-size: 20px;
+		margin :10px 0 20px 0;
+		padding: 5px;
+		border:1px solid #ccc;
+
+	}
+	small{
+		display: block;
+		text-align: right;
+		color: #3385ff;
+		font-size: 16px;
+		margin-top: 0;
+	}
+	#div1{
+		width: 250px;
+		margin-left: 180px;
+		margin-top: 1px;
+	}
+	input[type="submit"]{
+		border: 1px solid #f2f2f2;
+		background-color: #f2f2f2;
+		color: #737373;
+		font-size: 12px;
+		font-weight: bold;
+		padding: 10px;
+		margin: 0 3px;
+
+	}
+	.box-shadow{
+		box-shadow: 15px 5px 5px #f2f2f2;
+	}
+	#left-side li{
+		float: left;
+		list-style-type: none;
+		margin:0 10px;
+	}
+	#right-side li{
+		float: right;
+		list-style-type: none;
+		margin:0 10px;
+	}
+	#footer{
+		background-color: #f3f3f3;
+		margin:0 5px 0 5px ;
+		padding: 10px;
+	}
+	footer{
+		bottom: 0;	
+		position: fixed;
+		width: 100%;
+	}
+	#header ul li:hover,
+	#footer ul li:hover
+	{
+		text-decoration: underline;
+	}
+	input[type="submit"]:hover{
+		color: black;
+		border-color: #ccc;
+
+	}
